@@ -25,7 +25,7 @@ import java.util.Map;
 import java.util.logging.Level;
 import java.util.logging.LogRecord;
 
-import es.sinjava.log4nerds.Configurators.ConsoleConfigurator;
+import es.sinjava.log4nerds.configurators.ConsoleConfigurator;
 import es.sinjava.log4nerds.utils.FieldEnum;
 import es.sinjava.log4nerds.utils.MatcherField;
 

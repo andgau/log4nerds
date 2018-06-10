@@ -19,7 +19,7 @@ package es.sinjava;
 
 import java.util.logging.Logger;
 
-import es.sinjava.log4nerds.Configurators.ConsoleConfigurator;
+import es.sinjava.log4nerds.configurators.ConsoleConfigurator;
 import es.sinjava.log4nerds.factories.Log4nFactory;
 
 public class ConsoleApp2 {

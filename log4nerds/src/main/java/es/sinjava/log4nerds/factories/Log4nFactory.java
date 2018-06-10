@@ -34,8 +34,8 @@ import java.util.logging.Handler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-import es.sinjava.log4nerds.Configurators.ConsoleConfigurator;
-import es.sinjava.log4nerds.Configurators.FileConfigurator;
+import es.sinjava.log4nerds.configurators.ConsoleConfigurator;
+import es.sinjava.log4nerds.configurators.FileConfigurator;
 import es.sinjava.log4nerds.formatters.AdvancedFormatter;
 import es.sinjava.log4nerds.formatters.DefaultFormatter;
 import es.sinjava.log4nerds.formatters.SimpleFormatter;

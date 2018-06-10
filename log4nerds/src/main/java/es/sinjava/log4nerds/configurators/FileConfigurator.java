@@ -15,7 +15,7 @@
  * @ Author: Andres Gaudioso Simon mailto:andgau@gmail.com
  */
 
-package es.sinjava.log4nerds.Configurators;
+package es.sinjava.log4nerds.configurators;
 
 public class FileConfigurator {
 
