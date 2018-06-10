@@ -29,9 +29,7 @@ import es.sinjava.log4nerds.factories.Log4nFactory;
 
 public class ConsoleApp {
 
-	private static ConsoleConfigurator config = ConsoleConfigurator.getInstance().setLocal(false).configure(INFO, BLUE)
-			.configure(SEVERE, CYAN);
-
+	private static ConsoleConfigurator config = ConsoleConfigurator.getInstance();
 	private static Logger logger = Log4nFactory.getInstance(config);
 
 	public static void main(String[] args) {
