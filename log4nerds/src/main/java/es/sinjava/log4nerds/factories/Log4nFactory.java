@@ -44,6 +44,14 @@ import es.sinjava.log4nerds.utils.FieldEnum;
 public class Log4nFactory {
 
 	private static Logger logger;
+	
+	public static Logger getInstance() {
+		if (logger == null) {
+			logger = Logger.getAnonymousLogger();
+		}
+		return logger;
+	}
+	
 
 	public static Logger getInstance(ConsoleConfigurator config) {
 		if (logger == null) {
